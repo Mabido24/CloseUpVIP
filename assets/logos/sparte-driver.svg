@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="95" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="100" y="88" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="22" letter-spacing="2">SPARTE</text>
+  <text x="100" y="112" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="16" letter-spacing="3">DRIVER</text>
+  <path d="M70 130 L100 155 L130 130" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <circle cx="100" cy="145" r="4" fill="#FFFFFF"/>
+</svg>

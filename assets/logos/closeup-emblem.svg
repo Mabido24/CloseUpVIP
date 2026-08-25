@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="96" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="100" cy="100" r="88" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- sun rays -->
+  <g stroke="#FFFFFF" stroke-width="1.5" opacity="0.9">
+    <line x1="100" y1="22" x2="100" y2="38"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(15 100 100)"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(30 100 100)"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(45 100 100)"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(315 100 100)"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(330 100 100)"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(345 100 100)"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(60 100 100)"/>
+    <line x1="100" y1="22" x2="100" y2="38" transform="rotate(300 100 100)"/>
+  </g>
+  <!-- phoenix / eagle -->
+  <g fill="#FFFFFF">
+    <circle cx="100" cy="78" r="8"/>
+    <path d="M100 88 L92 145 L100 158 L108 145 Z"/>
+    <!-- left wing -->
+    <path d="M92 95 C70 85, 45 70, 35 55 C50 65, 65 78, 78 95 C72 100, 85 102, 92 95 Z"/>
+    <path d="M85 100 C60 95, 40 85, 28 72 C42 82, 58 92, 75 105 Z"/>
+    <path d="M80 108 C55 108, 35 100, 22 88 C38 98, 55 108, 72 115 Z"/>
+    <!-- right wing -->
+    <path d="M108 95 C130 85, 155 70, 165 55 C150 65, 135 78, 122 95 C128 100, 115 102, 108 95 Z"/>
+    <path d="M115 100 C140 95, 160 85, 172 72 C158 82, 142 92, 125 105 Z"/>
+    <path d="M120 108 C145 108, 165 100, 178 88 C162 98, 145 108, 128 115 Z"/>
+  </g>
+  <!-- sun arc behind -->
+  <path d="M55 100 A45 45 0 0 1 145 100" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

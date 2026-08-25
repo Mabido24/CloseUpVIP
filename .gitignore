@@ -1,0 +1,19 @@
+# Dependencies / tooling
+node_modules/
+.wrangler/
+.cloudflare/
+dist/
+
+# Local extract / generators (not for production)
+_pdf_extract/
+_extract_pdf.py
+_gen_i18n_part1.py
+__pycache__/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example

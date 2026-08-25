@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="50" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="100" y="108" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="36" font-weight="700">A</text>
+  <!-- wings -->
+  <path d="M55 100 C30 85, 15 70, 10 50 C25 70, 40 85, 58 95" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+  <path d="M52 110 C25 100, 12 85, 5 65 C20 85, 35 100, 55 108" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M145 100 C170 85, 185 70, 190 50 C175 70, 160 85, 142 95" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+  <path d="M148 110 C175 100, 188 85, 195 65 C180 85, 165 100, 145 108" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+</svg>
