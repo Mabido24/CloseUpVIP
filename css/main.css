@@ -331,6 +331,21 @@ h2 {
   aspect-ratio: 16 / 9;
   background-size: cover;
   background-position: center;
+  background-color: #1a1a1a;
+}
+.why-split {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.why-split .partner-img {
+  min-height: 300px;
+  aspect-ratio: auto;
+}
+@media (max-width: 900px) {
+  .why-split { grid-template-columns: 1fr; }
 }
 .partner-body { padding: 1.35rem 1.4rem 1.6rem; }
 .partner-body h3 {
