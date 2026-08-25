@@ -4,162 +4,183 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Close UP Security — Close Protection & VIP Escort</title>
-  <meta name="description" content="Close protection, discreet VIP escort, premium chauffeur and private aviation. France, Europe and worldwide." />
-  <meta name="theme-color" content="#0b0b0b" />
+  <meta name="description" content="Elite close protection and VIP escort. Premium transport and private aviation partners. France, Europe, worldwide." />
+  <meta name="theme-color" content="#0a0a0a" />
   <link rel="canonical" href="https://closeupvip.pages.dev/" />
-  <link rel="icon" type="image/svg+xml" href="assets/logos/closeup-emblem.svg" />
+  <link rel="icon" href="assets/logos/closeup-emblem.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/main.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SecurityService",
-    "name": "Close UP Security",
-    "url": "https://closeupvip.pages.dev/",
-    "email": "closeupsecurity@protonmail.com",
-    "telephone": ["+33619332747", "+33610024174"],
-    "areaServed": ["France", "Europe", "Worldwide"],
-    "description": "Close protection and VIP escort with premium transport and private aviation partners."
-  }
-  </script>
 </head>
 <body>
-  <header class="header">
-    <div class="wrap header-row">
-      <a class="brand" href="#top">
-        <img src="assets/logos/closeup-emblem.svg" width="34" height="34" alt="" />
-        <span>Close UP <em>Security</em></span>
+  <!-- ========== HEADER / MENU ========== -->
+  <header class="site-header" id="top">
+    <div class="shell header-grid">
+      <a class="logo" href="#top">
+        <img src="assets/logos/closeup-emblem.svg" alt="" width="40" height="40" />
+        <span>Close UP <b>Security</b></span>
       </a>
-      <nav class="nav" id="nav" aria-label="Primary">
+
+      <nav class="main-nav" id="main-nav" aria-label="Main">
         <a href="#about" data-i18n="nav.about">About</a>
         <a href="#services" data-i18n="nav.services">Services</a>
         <a href="#partners" data-i18n="nav.partners">Partners</a>
-        <a href="#why" data-i18n="nav.why">Why us</a>
+        <a href="#commitments" data-i18n="nav.commitments">Commitments</a>
+        <a href="#coverage" data-i18n="nav.coverage">Coverage</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
-      <div class="tools">
-        <label class="sr-only" for="lang-select" data-i18n="lang.label">Language</label>
-        <select id="lang-select" aria-label="Language">
-          <option value="en">EN</option>
-          <option value="fr">FR</option>
-          <option value="de">DE</option>
-          <option value="it">IT</option>
-          <option value="es">ES</option>
-          <option value="pt">PT</option>
-          <option value="ru">RU</option>
-          <option value="zh">中文</option>
-          <option value="ar">العربية</option>
-        </select>
-        <a class="btn" href="#contact" data-i18n="nav.cta">Request a quote</a>
-        <button class="burger" id="menu-btn" type="button" aria-controls="nav" aria-expanded="false" aria-label="Menu"><i></i></button>
+
+      <div class="header-actions">
+        <label class="lang-wrap">
+          <span class="sr-only" data-i18n="lang.label">Language</span>
+          <select id="lang-select" aria-label="Language">
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="de">DE</option>
+            <option value="it">IT</option>
+            <option value="es">ES</option>
+            <option value="pt">PT</option>
+            <option value="ru">RU</option>
+            <option value="zh">中文</option>
+            <option value="ar">العربية</option>
+          </select>
+        </label>
+        <a class="btn btn-gold" href="#contact" data-i18n="nav.cta">Request a quote</a>
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </div>
   </header>
 
-  <main id="top">
-    <!-- Photos only in .hero-photos. All wording is real HTML below. -->
-    <section class="hero" aria-label="Close UP Security">
-      <div class="hero-photos" aria-hidden="true">
-        <span class="car"></span>
-        <span class="jet"></span>
+  <main>
+    <!-- ========== HERO : IMAGE 1 ========== -->
+    <section class="hero">
+      <div class="hero-grid shell">
+        <div class="hero-text">
+          <p class="label" data-i18n="hero.label">Close protection & VIP escort</p>
+          <h1>Close UP Security</h1>
+          <p class="lead" data-i18n="hero.lead">Discreet protection for executives, families and public figures — so you travel with complete peace of mind.</p>
+          <div class="btn-row">
+            <a class="btn btn-gold" href="#services" data-i18n="hero.cta1">View services</a>
+            <a class="btn btn-outline" href="#contact" data-i18n="hero.cta2">Contact us</a>
+          </div>
+        </div>
+        <figure class="ph hero-ph" data-slot="1">
+          <img src="assets/placeholders/image-01.svg" alt="Image 1 — Hero" width="800" height="600" />
+          <figcaption>IMAGE 1</figcaption>
+        </figure>
       </div>
-      <div class="hero-veil" aria-hidden="true"></div>
-      <div class="wrap hero-copy fade">
-        <p class="eyebrow" data-i18n="hero.tag">Close protection & VIP escort</p>
-        <h1>Close UP Security</h1>
-        <p data-i18n="hero.intro">Discreet protection for executives, families and public figures — so you can move freely, anywhere.</p>
-        <div class="hero-actions">
-          <a class="btn" href="#services" data-i18n="hero.cta1">Our services</a>
-          <a class="btn btn-line" href="#contact" data-i18n="hero.cta2">Contact us</a>
+    </section>
+
+    <!-- ========== ABOUT : IMAGE 2 ========== -->
+    <section class="block" id="about">
+      <div class="shell matrix-2">
+        <figure class="ph" data-slot="2">
+          <img src="assets/placeholders/image-02.svg" alt="Image 2 — About" width="800" height="600" />
+          <figcaption>IMAGE 2</figcaption>
+        </figure>
+        <div class="copy">
+          <p class="label" data-i18n="about.label">Who we are</p>
+          <h2 data-i18n="about.title">A team dedicated to your protection</h2>
+          <p data-i18n="about.p1">Close UP Security accompanies executives, public figures, families and VIP clients on private and professional travel.</p>
+          <p data-i18n="about.p2">Our mission: your safety, comfort and peace of mind — through a discreet approach adapted to every assignment, with 43 years of private security experience.</p>
+          <ul class="key-grid">
+            <li><strong data-i18n="about.k1t">Discretion</strong><span data-i18n="about.k1d">Absolute confidentiality</span></li>
+            <li><strong data-i18n="about.k2t">Reactivity</strong><span data-i18n="about.k2d">Available 24/7</span></li>
+            <li><strong data-i18n="about.k3t">Adaptability</strong><span data-i18n="about.k3d">Tailored to every risk</span></li>
+            <li><strong data-i18n="about.k4t">Excellence</strong><span data-i18n="about.k4d">Trained agents, FR & abroad</span></li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="wrap fade">
-        <p class="eyebrow" data-i18n="about.kicker">Who we are</p>
-        <h2 data-i18n="about.title">A dedicated close-protection team</h2>
-        <p class="lede" data-i18n="about.p1">Close UP Security accompanies executives, public figures, families and VIP clients during private and professional travel.</p>
-        <p class="lede" data-i18n="about.p2">We protect your safety, comfort and peace of mind with a discreet approach tailored to each mission — backed by 43 years of private security experience.</p>
-        <div class="stats">
-          <div class="stat"><strong data-i18n="about.v1t">Discretion</strong><span data-i18n="about.v1d">Absolute confidentiality in every circumstance.</span></div>
-          <div class="stat"><strong data-i18n="about.v2t">Reactivity</strong><span data-i18n="about.v2d">Available 24/7 for urgent and planned missions.</span></div>
-          <div class="stat"><strong data-i18n="about.v3t">Adaptability</strong><span data-i18n="about.v3d">Devices designed for each context and risk level.</span></div>
-          <div class="stat"><strong data-i18n="about.v4t">Excellence</strong><span data-i18n="about.v4d">Qualified agents, trained in France and abroad.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services">
-      <div class="split">
-        <div class="split-panel fade">
-          <p class="eyebrow" data-i18n="services.kicker">Services</p>
+    <!-- ========== SERVICES : IMAGE 3 ========== -->
+    <section class="block block-alt" id="services">
+      <div class="shell matrix-2 matrix-flip">
+        <div class="copy">
+          <p class="label" data-i18n="services.label">Services</p>
           <h2 data-i18n="services.title">Close protection</h2>
-          <p class="lede" data-i18n="services.intro">Protection for executives, public figures, families and VIP clients — one-off or permanent missions.</p>
-          <ul class="bullets">
+          <p data-i18n="services.intro">Protection for executives, public figures, families and VIP clients — short-term or permanent missions.</p>
+          <ul class="checklist">
             <li data-i18n="services.li1">Executive escort</li>
             <li data-i18n="services.li2">Public figure protection</li>
             <li data-i18n="services.li3">VIP accompaniment</li>
             <li data-i18n="services.li4">Family protection</li>
             <li data-i18n="services.li5">Sensitive travel security</li>
-            <li data-i18n="services.li6">Permanent or short-term assignments</li>
+            <li data-i18n="services.li6">One-off or permanent assignments</li>
           </ul>
-          <p class="lede" style="margin-top:1.4rem" data-i18n="services.goal">Goal: let you move freely, with complete peace of mind.</p>
+          <p class="note" data-i18n="services.goal"><strong>Objective:</strong> move freely, with complete peace of mind.</p>
         </div>
-        <div class="split-photo" style="background-image:url('assets/images/services.jpg')" role="img" aria-label="Close protection detail"></div>
+        <figure class="ph" data-slot="3">
+          <img src="assets/placeholders/image-03.svg" alt="Image 3 — Services" width="800" height="600" />
+          <figcaption>IMAGE 3</figcaption>
+        </figure>
       </div>
     </section>
 
-    <section class="section section-soft">
-      <div class="split flip">
-        <div class="split-panel fade">
-          <p class="eyebrow" data-i18n="why.kicker">Why choose us</p>
-          <h2 data-i18n="why.title">One contact. Complete control.</h2>
-          <ul class="bullets">
+    <!-- ========== WHY : IMAGE 4 ========== -->
+    <section class="block" id="why">
+      <div class="shell matrix-2">
+        <figure class="ph" data-slot="4">
+          <img src="assets/placeholders/image-04.svg" alt="Image 4 — Why us" width="800" height="600" />
+          <figcaption>IMAGE 4</figcaption>
+        </figure>
+        <div class="copy">
+          <p class="label" data-i18n="why.label">Why choose us</p>
+          <h2 data-i18n="why.title">One contact. Full control.</h2>
+          <ul class="checklist">
             <li data-i18n="why.li1">A single point of contact for the whole journey</li>
-            <li data-i18n="why.li2">Security, premium transport and private aviation combined</li>
+            <li data-i18n="why.li2">Security + premium transport + private aviation</li>
             <li data-i18n="why.li3">Permanent availability</li>
             <li data-i18n="why.li4">Premium partner network</li>
-            <li data-i18n="why.li5">Personalized service and guaranteed confidentiality</li>
+            <li data-i18n="why.li5">Personalized service & guaranteed confidentiality</li>
           </ul>
         </div>
-        <div class="split-photo" style="background-image:url('assets/images/about.jpg')" role="img" aria-label="VIP escort agent"></div>
       </div>
     </section>
 
-    <section id="partners" class="section">
-      <div class="wrap fade">
-        <p class="eyebrow" data-i18n="partners.kicker">Partners</p>
-        <h2 data-i18n="partners.title">Security, mobility and aviation — orchestrated together</h2>
-        <p class="lede" data-i18n="partners.intro">Through trusted partners, we coordinate high-end ground transport and private flights with your protection detail.</p>
-        <div class="cards">
+    <!-- ========== PARTNERS : IMAGE 5 + 6 ========== -->
+    <section class="block block-alt" id="partners">
+      <div class="shell">
+        <div class="section-head">
+          <p class="label" data-i18n="partners.label">Partners</p>
+          <h2 data-i18n="partners.title">Security, mobility and aviation — together</h2>
+          <p data-i18n="partners.intro">We coordinate high-end ground transport and private flights with your protection detail.</p>
+        </div>
+        <div class="matrix-2 cards">
           <article class="card">
-            <div class="card-photo" style="background-image:url('assets/images/mobility.jpg')"></div>
+            <figure class="ph" data-slot="5">
+              <img src="assets/placeholders/image-05.svg" alt="Image 5 — Sparte Driver" width="800" height="500" />
+              <figcaption>IMAGE 5</figcaption>
+            </figure>
             <div class="card-body">
               <h3>Sparte Driver</h3>
               <p class="sub" data-i18n="partners.sparte.sub">Exceptional private transport</p>
-              <p data-i18n="partners.sparte.text">Discreet chauffeurs and premium vehicles for airport transfers, business travel, events and long-distance journeys across Europe.</p>
-              <ul>
+              <p data-i18n="partners.sparte.text">Discreet chauffeurs and premium vehicles for airport transfers, business travel, events and long distances across Europe.</p>
+              <ul class="mini">
                 <li data-i18n="partners.sparte.li1">Private chauffeurs</li>
                 <li data-i18n="partners.sparte.li2">Airport & city transfers</li>
-                <li data-i18n="partners.sparte.li3">Tesla, Mercedes V-Class & S-Class</li>
+                <li data-i18n="partners.sparte.li3">Tesla · Mercedes V-Class · S-Class</li>
                 <li data-i18n="partners.sparte.li4">Events, weddings & film logistics</li>
               </ul>
             </div>
           </article>
           <article class="card">
-            <div class="card-photo" style="background-image:url('assets/images/aviation.jpg')"></div>
+            <figure class="ph" data-slot="6">
+              <img src="assets/placeholders/image-06.svg" alt="Image 6 — Aviation" width="800" height="500" />
+              <figcaption>IMAGE 6</figcaption>
+            </figure>
             <div class="card-body">
               <h3>Aviation d'Exception</h3>
               <p class="sub" data-i18n="partners.av.sub">Bespoke private aviation</p>
-              <p data-i18n="partners.av.text">Private jets and tailored flights for VIP and business travel — comfort, speed and confidentiality from takeoff to landing.</p>
-              <ul>
+              <p data-i18n="partners.av.text">Private jets and tailored flights for VIP and business travel — comfort, speed and confidentiality.</p>
+              <ul class="mini">
                 <li data-i18n="partners.av.li1">Private jets & international flights</li>
                 <li data-i18n="partners.av.li2">VIP and business travel</li>
-                <li data-i18n="partners.av.li3">Citation CJ3, Conquest I, Cessna 340</li>
-                <li data-i18n="partners.av.li4">Concierge service & flexible schedules</li>
+                <li data-i18n="partners.av.li3">Citation CJ3 · Conquest I · Cessna 340</li>
+                <li data-i18n="partners.av.li4">Concierge & flexible schedules</li>
               </ul>
             </div>
           </article>
@@ -167,14 +188,17 @@
       </div>
     </section>
 
-    <section id="why" class="section section-soft">
-      <div class="wrap fade">
-        <p class="eyebrow" data-i18n="commit.kicker">Our commitments</p>
-        <h2 data-i18n="commit.title">What we guarantee on every mission</h2>
-        <div class="tiles">
+    <!-- ========== COMMITMENTS ========== -->
+    <section class="block" id="commitments">
+      <div class="shell">
+        <div class="section-head">
+          <p class="label" data-i18n="commit.label">Our commitments</p>
+          <h2 data-i18n="commit.title">What we guarantee on every mission</h2>
+        </div>
+        <div class="matrix-3">
           <article class="tile">
             <h3 data-i18n="commit.c1t">Experience</h3>
-            <p data-i18n="commit.c1d">43 years of private security expertise, applied to every assignment.</p>
+            <p data-i18n="commit.c1d">43 years of private security expertise on every assignment.</p>
           </article>
           <article class="tile">
             <h3 data-i18n="commit.c2t">Preparation</h3>
@@ -188,73 +212,88 @@
       </div>
     </section>
 
-    <section class="zone-band">
-      <div class="bg" aria-hidden="true"></div>
-      <div class="wrap coverage fade">
-        <div>
-          <p class="eyebrow" data-i18n="zone.kicker">Coverage</p>
+    <!-- ========== COVERAGE : IMAGE 7 ========== -->
+    <section class="block block-alt" id="coverage">
+      <div class="shell matrix-2">
+        <figure class="ph" data-slot="7">
+          <img src="assets/placeholders/image-07.svg" alt="Image 7 — Coverage" width="800" height="600" />
+          <figcaption>IMAGE 7</figcaption>
+        </figure>
+        <div class="copy">
+          <p class="label" data-i18n="zone.label">Coverage</p>
           <h2 data-i18n="zone.title">Where we operate</h2>
-          <div class="chips">
-            <span data-i18n="zone.france">France</span>
-            <span data-i18n="zone.europe">Europe</span>
-            <span data-i18n="zone.world">International</span>
-          </div>
+          <p data-i18n="zone.intro">National reach, European network, international capability.</p>
+          <ul class="chips">
+            <li data-i18n="zone.france">France</li>
+            <li data-i18n="zone.europe">Europe</li>
+            <li data-i18n="zone.world">International</li>
+          </ul>
+          <p class="hours" data-i18n="zone.hours">Intervention 24/7</p>
         </div>
-        <p class="hours" data-i18n="zone.hours">Intervention 24/7</p>
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="wrap contact-grid fade">
-        <div>
-          <p class="eyebrow" data-i18n="contact.kicker">Contact</p>
+    <!-- ========== CONTACT : IMAGE 8 ========== -->
+    <section class="block" id="contact">
+      <div class="shell matrix-2 contact-matrix">
+        <div class="copy">
+          <p class="label" data-i18n="contact.label">Contact</p>
           <h2 data-i18n="contact.title">Speak with us discreetly</h2>
-          <p class="lede" data-i18n="contact.intro">Tell us about your needs. Every request is handled with absolute discretion.</p>
-          <div class="lines">
+          <p data-i18n="contact.intro">Tell us about your needs. Every request is handled with absolute discretion.</p>
+          <dl class="contact-list">
             <div>
-              <small data-i18n="contact.phone">Phone</small>
-              <a href="tel:+33619332747">06 19 33 27 47</a><br />
-              <a href="tel:+33610024174">06 10 02 41 74</a>
+              <dt data-i18n="contact.phone">Phone</dt>
+              <dd>
+                <a href="tel:+33619332747">06 19 33 27 47</a><br />
+                <a href="tel:+33610024174">06 10 02 41 74</a>
+              </dd>
             </div>
             <div>
-              <small data-i18n="contact.email">Email</small>
-              <a href="mailto:closeupsecurity@protonmail.com">closeupsecurity@protonmail.com</a>
+              <dt data-i18n="contact.email">Email</dt>
+              <dd><a href="mailto:closeupsecurity@protonmail.com">closeupsecurity@protonmail.com</a></dd>
             </div>
             <div>
-              <small data-i18n="contact.web">Web</small>
-              <a href="https://www.closeupsecurity.com" rel="noopener">www.closeupsecurity.com</a>
+              <dt data-i18n="contact.web">Web</dt>
+              <dd><a href="https://www.closeupsecurity.com" rel="noopener">www.closeupsecurity.com</a></dd>
             </div>
             <div>
-              <small data-i18n="contact.areaLabel">Area</small>
-              <span data-i18n="contact.area">France · Europe · International</span>
+              <dt data-i18n="contact.areaLabel">Area</dt>
+              <dd data-i18n="contact.area">France · Europe · International</dd>
             </div>
-          </div>
-          <div class="split-photo" style="margin-top:1.5rem;min-height:220px;background-image:url('assets/images/contact.jpg')" role="img" aria-label="Close UP Security"></div>
+          </dl>
+          <figure class="ph contact-ph" data-slot="8">
+            <img src="assets/placeholders/image-08.svg" alt="Image 8 — Contact" width="800" height="400" />
+            <figcaption>IMAGE 8</figcaption>
+          </figure>
         </div>
-        <form class="form" id="contact-form">
-          <div class="field">
-            <label for="name" data-i18n="contact.name">Full name</label>
-            <input id="name" name="name" type="text" required autocomplete="name" />
-          </div>
-          <div class="field">
-            <label for="message" data-i18n="contact.message">Your message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <button class="btn" type="submit" data-i18n="contact.send">Send</button>
-          <p class="note" data-i18n="contact.note">Opens your email client — nothing is stored on this site.</p>
+        <form class="form" id="contact-form" novalidate>
+          <h3 data-i18n="contact.formTitle">Send a request</h3>
+          <label>
+            <span data-i18n="contact.name">Full name</span>
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>
+            <span data-i18n="contact.message">Your message</span>
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+          <button class="btn btn-gold" type="submit" data-i18n="contact.send">Send</button>
+          <p class="form-note" data-i18n="contact.note">Opens your email client — nothing is stored on this site.</p>
         </form>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="wrap footer-row">
-      <p>© <span id="y"></span> Close UP Security</p>
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <p>© <span id="year"></span> Close UP Security</p>
       <p data-i18n="footer.tag">Private security of excellence</p>
+      <p class="slots-hint">Placeholders: IMAGE 1 → IMAGE 8 — replace files in <code>assets/placeholders/</code></p>
     </div>
   </footer>
 
-  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
   <script src="js/i18n.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>

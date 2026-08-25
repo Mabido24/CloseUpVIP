@@ -1,39 +1,30 @@
-# Close UP Security — Site HTML
+# Close UP Security
 
-Site vitrine static HTML (pas de Next.js) pour Close UP Security, Sparte Driver et Aviation d’Exception.
+Static HTML site (no Next.js) — Cloudflare Pages + Laragon.
 
-## Développement (Laragon)
+## Structure (matrix)
 
-1. Le projet est dans `E:\laragon\www\CloseUpVIP`
-2. Ouvrir : **http://closeupvip.test/** (ou `http://localhost/CloseUpVIP/`)
-3. Si le vhost n’existe pas encore : Laragon → Menu → Apache → sites → ajouter `CloseUpVIP`
+| Slot | Section | File to replace |
+|------|---------|-----------------|
+| IMAGE 1 | Hero | `assets/placeholders/image-01.svg` |
+| IMAGE 2 | About | `assets/placeholders/image-02.svg` |
+| IMAGE 3 | Services | `assets/placeholders/image-03.svg` |
+| IMAGE 4 | Why us | `assets/placeholders/image-04.svg` |
+| IMAGE 5 | Sparte Driver | `assets/placeholders/image-05.svg` |
+| IMAGE 6 | Aviation | `assets/placeholders/image-06.svg` |
+| IMAGE 7 | Coverage | `assets/placeholders/image-07.svg` |
+| IMAGE 8 | Contact | `assets/placeholders/image-08.svg` |
 
-## Production (Cloudflare Pages)
+Replace each SVG with a JPG/PNG of the same filename, or keep the name and update the `src` in `index.html`.
 
-- Build : aucun (static)
-- Output directory : `/` (racine)
-- Déploiement : `npx wrangler pages deploy . --project-name=closeupvip`
+## Dev (Laragon)
+
+`http://localhost/CloseUpVIP/`
+
+## Production
+
+https://closeupvip.pages.dev/
 
 ## i18n
 
-- Défaut : **EN** (clés anglaises dans `locales/en.json`)
-- Locales : `fr`, `de`, `it`, `es`, `pt`, `ru`, `zh`, `ar`
-- Sélecteur de langue en en-tête ; `?lang=fr` possible
-- Arabe : `dir="rtl"` automatique
-
-## Structure
-
-```
-index.html
-css/main.css
-js/i18n.js
-js/main.js
-locales/*.json
-assets/images/
-assets/logos/
-```
-
-## Contact (flyer)
-
-- 06 19 33 27 47 / 06 10 02 41 74
-- closeupsecurity@protonmail.com
+EN default + FR, DE, IT, ES, PT, RU, ZH, AR (`locales/*.json`).
