@@ -17,3 +17,10 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+_inspect/
+_crops/
+_extract*
+_gen_*
+.wrangler/
+

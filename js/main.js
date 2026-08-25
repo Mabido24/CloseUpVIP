@@ -19,7 +19,7 @@
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            e.target.classList.add("in");
+            e.target.classList.add("on");
             io.unobserve(e.target);
           }
         });
@@ -28,7 +28,7 @@
     );
     document.querySelectorAll(".fade").forEach((el) => io.observe(el));
   } else {
-    document.querySelectorAll(".fade").forEach((el) => el.classList.add("in"));
+    document.querySelectorAll(".fade").forEach((el) => el.classList.add("on"));
   }
 
   const form = document.getElementById("contact-form");

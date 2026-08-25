@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Close UP Security — Close Protection & VIP Escort</title>
   <meta name="description" content="Close protection, discreet VIP escort, premium chauffeur and private aviation. France, Europe and worldwide." />
-  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="theme-color" content="#0b0b0b" />
   <link rel="canonical" href="https://closeupvip.pages.dev/" />
   <link rel="icon" type="image/svg+xml" href="assets/logos/closeup-emblem.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,20 +17,20 @@
     "@context": "https://schema.org",
     "@type": "SecurityService",
     "name": "Close UP Security",
-    "description": "Close protection and VIP escort with premium transport and private aviation partners.",
     "url": "https://closeupvip.pages.dev/",
     "email": "closeupsecurity@protonmail.com",
     "telephone": ["+33619332747", "+33610024174"],
-    "areaServed": ["France", "Europe", "Worldwide"]
+    "areaServed": ["France", "Europe", "Worldwide"],
+    "description": "Close protection and VIP escort with premium transport and private aviation partners."
   }
   </script>
 </head>
 <body>
   <header class="header">
-    <div class="wrap header-inner">
-      <a class="logo" href="#top">
-        <img src="assets/logos/closeup-emblem.svg" alt="" width="36" height="36" />
-        <span>Close UP <strong>Security</strong></span>
+    <div class="wrap header-row">
+      <a class="brand" href="#top">
+        <img src="assets/logos/closeup-emblem.svg" width="34" height="34" alt="" />
+        <span>Close UP <em>Security</em></span>
       </a>
       <nav class="nav" id="nav" aria-label="Primary">
         <a href="#about" data-i18n="nav.about">About</a>
@@ -39,7 +39,7 @@
         <a href="#why" data-i18n="nav.why">Why us</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
-      <div class="header-tools">
+      <div class="tools">
         <label class="sr-only" for="lang-select" data-i18n="lang.label">Language</label>
         <select id="lang-select" aria-label="Language">
           <option value="en">EN</option>
@@ -53,59 +53,52 @@
           <option value="ar">العربية</option>
         </select>
         <a class="btn" href="#contact" data-i18n="nav.cta">Request a quote</a>
-        <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span></button>
+        <button class="burger" id="menu-btn" type="button" aria-controls="nav" aria-expanded="false" aria-label="Menu"><i></i></button>
       </div>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="wrap hero-content fade">
-        <p class="tag" data-i18n="hero.tag">Close protection & VIP escort</p>
-        <h1 class="brand">Close UP Security</h1>
-        <p class="intro" data-i18n="hero.intro">Discreet protection for executives, families and public figures — so you can move freely, anywhere.</p>
+    <!-- Photos only in .hero-photos. All wording is real HTML below. -->
+    <section class="hero" aria-label="Close UP Security">
+      <div class="hero-photos" aria-hidden="true">
+        <span class="car"></span>
+        <span class="jet"></span>
+      </div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="wrap hero-copy fade">
+        <p class="eyebrow" data-i18n="hero.tag">Close protection & VIP escort</p>
+        <h1>Close UP Security</h1>
+        <p data-i18n="hero.intro">Discreet protection for executives, families and public figures — so you can move freely, anywhere.</p>
         <div class="hero-actions">
           <a class="btn" href="#services" data-i18n="hero.cta1">Our services</a>
-          <a class="btn btn-ghost" href="#contact" data-i18n="hero.cta2">Contact us</a>
+          <a class="btn btn-line" href="#contact" data-i18n="hero.cta2">Contact us</a>
         </div>
       </div>
     </section>
 
     <section id="about" class="section">
       <div class="wrap fade">
-        <p class="kicker" data-i18n="about.kicker">Who we are</p>
+        <p class="eyebrow" data-i18n="about.kicker">Who we are</p>
         <h2 data-i18n="about.title">A dedicated close-protection team</h2>
-        <p class="prose" data-i18n="about.p1">Close UP Security accompanies executives, public figures, families and VIP clients during private and professional travel.</p>
-        <p class="prose" data-i18n="about.p2">We protect your safety, comfort and peace of mind with a discreet approach tailored to each mission — backed by 43 years of private security experience.</p>
-        <div class="values">
-          <article class="value">
-            <h3 data-i18n="about.v1t">Discretion</h3>
-            <p data-i18n="about.v1d">Absolute confidentiality in every circumstance.</p>
-          </article>
-          <article class="value">
-            <h3 data-i18n="about.v2t">Reactivity</h3>
-            <p data-i18n="about.v2d">Available 24/7 for urgent and planned missions.</p>
-          </article>
-          <article class="value">
-            <h3 data-i18n="about.v3t">Adaptability</h3>
-            <p data-i18n="about.v3d">Devices designed for each context and risk level.</p>
-          </article>
-          <article class="value">
-            <h3 data-i18n="about.v4t">Excellence</h3>
-            <p data-i18n="about.v4d">Qualified agents, trained in France and abroad.</p>
-          </article>
+        <p class="lede" data-i18n="about.p1">Close UP Security accompanies executives, public figures, families and VIP clients during private and professional travel.</p>
+        <p class="lede" data-i18n="about.p2">We protect your safety, comfort and peace of mind with a discreet approach tailored to each mission — backed by 43 years of private security experience.</p>
+        <div class="stats">
+          <div class="stat"><strong data-i18n="about.v1t">Discretion</strong><span data-i18n="about.v1d">Absolute confidentiality in every circumstance.</span></div>
+          <div class="stat"><strong data-i18n="about.v2t">Reactivity</strong><span data-i18n="about.v2d">Available 24/7 for urgent and planned missions.</span></div>
+          <div class="stat"><strong data-i18n="about.v3t">Adaptability</strong><span data-i18n="about.v3d">Devices designed for each context and risk level.</span></div>
+          <div class="stat"><strong data-i18n="about.v4t">Excellence</strong><span data-i18n="about.v4d">Qualified agents, trained in France and abroad.</span></div>
         </div>
       </div>
     </section>
 
     <section id="services">
-      <div class="duo">
-        <div class="duo-text fade">
-          <p class="kicker" data-i18n="services.kicker">Services</p>
+      <div class="split">
+        <div class="split-panel fade">
+          <p class="eyebrow" data-i18n="services.kicker">Services</p>
           <h2 data-i18n="services.title">Close protection</h2>
-          <p class="prose" data-i18n="services.intro">Protection for executives, public figures, families and VIP clients — one-off or permanent missions.</p>
-          <ul class="list">
+          <p class="lede" data-i18n="services.intro">Protection for executives, public figures, families and VIP clients — one-off or permanent missions.</p>
+          <ul class="bullets">
             <li data-i18n="services.li1">Executive escort</li>
             <li data-i18n="services.li2">Public figure protection</li>
             <li data-i18n="services.li3">VIP accompaniment</li>
@@ -113,19 +106,18 @@
             <li data-i18n="services.li5">Sensitive travel security</li>
             <li data-i18n="services.li6">Permanent or short-term assignments</li>
           </ul>
-          <p class="prose" style="margin-top:1.5rem" data-i18n="services.goal">Goal: let you move freely, with complete peace of mind.</p>
+          <p class="lede" style="margin-top:1.4rem" data-i18n="services.goal">Goal: let you move freely, with complete peace of mind.</p>
         </div>
-        <div class="duo-media" style="background-image:url('assets/images/services.jpg')" role="img" aria-label="Close protection"></div>
+        <div class="split-photo" style="background-image:url('assets/images/services.jpg')" role="img" aria-label="Close protection detail"></div>
       </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="wrap fade">
-        <p class="kicker" data-i18n="why.kicker">Why choose us</p>
-        <h2 data-i18n="why.title">One contact. Complete control.</h2>
-        <div class="why-split">
-          <div class="partner-img" style="background-image:url('assets/images/why.jpg')" role="img" aria-label="VIP escort"></div>
-          <ul class="list">
+    <section class="section section-soft">
+      <div class="split flip">
+        <div class="split-panel fade">
+          <p class="eyebrow" data-i18n="why.kicker">Why choose us</p>
+          <h2 data-i18n="why.title">One contact. Complete control.</h2>
+          <ul class="bullets">
             <li data-i18n="why.li1">A single point of contact for the whole journey</li>
             <li data-i18n="why.li2">Security, premium transport and private aviation combined</li>
             <li data-i18n="why.li3">Permanent availability</li>
@@ -133,19 +125,19 @@
             <li data-i18n="why.li5">Personalized service and guaranteed confidentiality</li>
           </ul>
         </div>
+        <div class="split-photo" style="background-image:url('assets/images/about.jpg')" role="img" aria-label="VIP escort agent"></div>
       </div>
     </section>
 
     <section id="partners" class="section">
       <div class="wrap fade">
-        <p class="kicker" data-i18n="partners.kicker">Partners</p>
+        <p class="eyebrow" data-i18n="partners.kicker">Partners</p>
         <h2 data-i18n="partners.title">Security, mobility and aviation — orchestrated together</h2>
-        <p class="prose" data-i18n="partners.intro">Through trusted partners, we coordinate high-end ground transport and private flights with your protection detail.</p>
-
-        <div class="partners">
-          <article class="partner">
-            <div class="partner-img" style="background-image:url('assets/images/mobility.jpg')"></div>
-            <div class="partner-body">
+        <p class="lede" data-i18n="partners.intro">Through trusted partners, we coordinate high-end ground transport and private flights with your protection detail.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-photo" style="background-image:url('assets/images/mobility.jpg')"></div>
+            <div class="card-body">
               <h3>Sparte Driver</h3>
               <p class="sub" data-i18n="partners.sparte.sub">Exceptional private transport</p>
               <p data-i18n="partners.sparte.text">Discreet chauffeurs and premium vehicles for airport transfers, business travel, events and long-distance journeys across Europe.</p>
@@ -157,9 +149,9 @@
               </ul>
             </div>
           </article>
-          <article class="partner">
-            <div class="partner-img" style="background-image:url('assets/images/aviation.jpg')"></div>
-            <div class="partner-body">
+          <article class="card">
+            <div class="card-photo" style="background-image:url('assets/images/aviation.jpg')"></div>
+            <div class="card-body">
               <h3>Aviation d'Exception</h3>
               <p class="sub" data-i18n="partners.av.sub">Bespoke private aviation</p>
               <p data-i18n="partners.av.text">Private jets and tailored flights for VIP and business travel — comfort, speed and confidentiality from takeoff to landing.</p>
@@ -175,11 +167,11 @@
       </div>
     </section>
 
-    <section id="why" class="section section-alt">
+    <section id="why" class="section section-soft">
       <div class="wrap fade">
-        <p class="kicker" data-i18n="commit.kicker">Our commitments</p>
+        <p class="eyebrow" data-i18n="commit.kicker">Our commitments</p>
         <h2 data-i18n="commit.title">What we guarantee on every mission</h2>
-        <div class="grid-3">
+        <div class="tiles">
           <article class="tile">
             <h3 data-i18n="commit.c1t">Experience</h3>
             <p data-i18n="commit.c1d">43 years of private security expertise, applied to every assignment.</p>
@@ -196,12 +188,13 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="zone-band">
+      <div class="bg" aria-hidden="true"></div>
       <div class="wrap coverage fade">
         <div>
-          <p class="kicker" data-i18n="zone.kicker">Coverage</p>
+          <p class="eyebrow" data-i18n="zone.kicker">Coverage</p>
           <h2 data-i18n="zone.title">Where we operate</h2>
-          <div class="coverage-list" style="margin-top:1.25rem">
+          <div class="chips">
             <span data-i18n="zone.france">France</span>
             <span data-i18n="zone.europe">Europe</span>
             <span data-i18n="zone.world">International</span>
@@ -211,13 +204,13 @@
       </div>
     </section>
 
-    <section id="contact" class="section section-alt">
+    <section id="contact" class="section">
       <div class="wrap contact-grid fade">
         <div>
-          <p class="kicker" data-i18n="contact.kicker">Contact</p>
+          <p class="eyebrow" data-i18n="contact.kicker">Contact</p>
           <h2 data-i18n="contact.title">Speak with us discreetly</h2>
-          <p class="prose" data-i18n="contact.intro">Tell us about your needs. Every request is handled with absolute discretion.</p>
-          <div class="contact-lines">
+          <p class="lede" data-i18n="contact.intro">Tell us about your needs. Every request is handled with absolute discretion.</p>
+          <div class="lines">
             <div>
               <small data-i18n="contact.phone">Phone</small>
               <a href="tel:+33619332747">06 19 33 27 47</a><br />
@@ -236,6 +229,7 @@
               <span data-i18n="contact.area">France · Europe · International</span>
             </div>
           </div>
+          <div class="split-photo" style="margin-top:1.5rem;min-height:220px;background-image:url('assets/images/contact.jpg')" role="img" aria-label="Close UP Security"></div>
         </div>
         <form class="form" id="contact-form">
           <div class="field">
@@ -254,7 +248,7 @@
   </main>
 
   <footer class="footer">
-    <div class="wrap footer-inner">
+    <div class="wrap footer-row">
       <p>© <span id="y"></span> Close UP Security</p>
       <p data-i18n="footer.tag">Private security of excellence</p>
     </div>
